@@ -208,7 +208,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 15px 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "gravity", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #444444;
   text-transform: none;
@@ -239,8 +239,10 @@ h2,
 }
 h3,
 .uk-h3 {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 19px;
+  line-height: 38px;
+  text-decoration: underline;
+  font-family:'gravity';
 }
 h4,
 .uk-h4 {
@@ -251,6 +253,7 @@ h5,
 .uk-h5 {
   font-size: 14px;
   line-height: 20px;
+  font-family:'lane';
 }
 h6,
 .uk-h6 {
@@ -325,7 +328,7 @@ pre {
   /* 1 */
   overflow: auto;
 }
-/* Selection pseudo-element 
+/* Selection pseudo-element
  ========================================================================== */
 ::-moz-selection {
   background: #3399ff;
@@ -1879,7 +1882,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   /* 2 */
   color: #444444;
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "gravity", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 /* Appear not as link */
