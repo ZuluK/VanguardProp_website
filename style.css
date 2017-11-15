@@ -187,13 +187,13 @@ button:focus,
 }
 
 .slide1{
-	text-align: left;
+	text-align: center;
 }
 .slide2{
 	text-align: center;
 }
 .slide3{
-	text-align: right;
+	text-align: center;
 }
 .sider_text {
 	height: 100%;
@@ -214,6 +214,7 @@ button:focus,
 	line-height: normal;
 	font-family: 'kenzo';
 	color: #FE5B35
+	text-align:center;
 }
 .first_heading span {
     color: #FE5B35;
@@ -226,20 +227,19 @@ button:focus,
 	margin: auto;
 }
 .slide1 .slider_divided{
-	float: left;
 }
 .slider_divided.divided_float2 {
-    float: right;
-	margin-bottom: 0px;
+	  margin-bottom: 0px;
 }
 .sider_text p {
     color: #fff;
-    font-size: 21px;
+    font-size: 14px;
     letter-spacing: 0.8px;
 		font-family: 'Roboto', sans-serif;
 }
 p.text_margintop {
     margin-top: 46px;
+		text-align: center;
 }
 .sider_text > .btn_wrap{
 	margin-top: 150px;
@@ -356,7 +356,7 @@ a.nivo-nextNav{
 	float: right;
 }
 h3.introHead{
-  font-size: 20px;
+  font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	border: 1px solid #FE5B35;
@@ -1439,7 +1439,7 @@ a, a:hover, a:focus {
 }
 .icon_box_content > h4 {
   font-weight: 500;
-  margin-bottom: 0;
+  margin-bottom: 23px;
 }
 .icon_box_content a {
   color: #333;
