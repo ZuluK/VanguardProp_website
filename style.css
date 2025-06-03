@@ -1,19 +1,22 @@
-@charset "UTF-8";
+slider/chinbasin.jpg@charset "UTF-8";
 
 
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'gravity', sans-serif;
 	color: #8a8a8a;
 	font-size: 14px;
 	overflow-x: hidden;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, {
 	color: #333;
-	font-family: 'Playball', cursive;
+  font-family: 'kenzo', sans-serif;
 	margin: 0 0 15px;
 	font-weight: 700;
 	line-height: normal;
 	letter-spacing: 1px;
+}
+p {
+	font-family: 'gravity', sans-serif;
 }
 a{
 	color: #00bcd4;
@@ -123,9 +126,16 @@ button:focus,
 .header_area .logo{
 	padding-top: 0px;
 }
+
+.header_area .logo h3 {
+	color: white;
+}
+.header_area .logo span {
+	color: #FE5B35;
+}
 #main_nav li a{
 	color: black;
-	font-family: 'Lato', sans-serif;
+	font-family: 'gravity', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	padding: 6px 12px;
@@ -135,25 +145,25 @@ button:focus,
 }
 #main_nav li a:hover, #main_nav li a:focus, #main_nav li.current a{
 	background: transparent;
-	color: 	#FFC0CB;
+	color: 	#FE5B35;
 	outline: none;
 }
 .navbar-toggle {
-  border: 1px solid #FFC0CB
+  border: 1px solid #FE5B35;
   border-radius: 4px;
   padding: 9px 10px;
   width: 50px;
 
 }
 .navbar-toggle  .icon-bar{
-	background: #FFC0CB;
+	background: #FE5B35;
 }
 
 .slider {
   position: relative;
 }
 .nivo-caption {
-    background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
 	opacity:1;
 	height: 100%;
 	left: 0;
@@ -164,6 +174,7 @@ button:focus,
 }
 .nivo-caption a {
   display: inline-block;
+
 }
 .slider-text{
 	display: table;
@@ -203,10 +214,10 @@ button:focus,
 	line-height: normal;
 }
 .first_heading span {
-    color: #FFC0CB;
+    color: #FE5B35;
 }
 .slider_divided {
-	background: #FFC0CB;
+	background: #FE5B35;
 	height: 1px;
 	width: 575px;
 	margin-bottom: 10px !important;
@@ -228,7 +239,7 @@ p.text_margintop {
     margin-top: 46px;
 }
 .sider_text > .btn_wrap{
-	margin-top: 40px;
+	margin-top: 150px;
 }
 .slider_divided{
 	animation: fadeIn 2700ms ease-in-out;
@@ -237,7 +248,7 @@ p.text_margintop {
 	animation: fadeInUp 1500ms ease-in-out;
 }
 .explore_btn{
-	background: #FFC0CB none repeat scroll 0 0;
+	background: #FE5B35; none repeat scroll 0 0;
 	border-radius: 2%;
 	color: #fff;
 	font-size: 13px;
@@ -245,9 +256,10 @@ p.text_margintop {
 	padding: 13px 18px;
 	text-transform: uppercase;
 	transition: all 0.5s ease 0s;
+  font-family: 'gravity', sans-serif;
 }
 .explore_btn:hover, .explore_btn:focus{
-	color: #FFC0CB;
+	color: #FE5B35;;
 	background: #fff;
 }
 
@@ -266,7 +278,7 @@ p.text_margintop {
 	width: 50px;
 }
 .nivo-directionNav a:hover{
-	background: #FFC0CB;
+	background: #FE5B35;;
 	color: #fff;
 }
 .nivo-directionNav a i{
@@ -301,11 +313,11 @@ a.nivo-nextNav{
 }
 
 .uk-active{
-    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
-	min-height: 50px;
+    background: rgba(255,255,255,1) none repeat scroll 0 0;
+	  min-height: 50px;
 }
 .uk-active:before {
-  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
   content: "";
   height: 50px;
   left: 100%;
@@ -314,7 +326,7 @@ a.nivo-nextNav{
   width: 10000px;
 }
 .uk-active:after {
-  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
   content: "";
   height: 50px;
   right: 100%;
@@ -326,7 +338,7 @@ a.nivo-nextNav{
     width: 100%;
 }
 .uk-active .logo{
-	padding-top: 5px;
+	padding-top: 12px;
 }
 .uk-active .navbar-right{
 	padding-top: 8px;
@@ -339,6 +351,13 @@ a.nivo-nextNav{
 	text-align: right;
 	float: right;
 }
+q {
+	position: absolute;
+  bottom: -200px;
+  font-size: 20px;
+	font-family: 'lane', sans-serif;
+}
+
 
 /*-------------------- end Home CSS --------------------*/
 
@@ -361,18 +380,18 @@ a.nivo-nextNav{
     font-size: 25px;
 }
 .services-sec .service-area .service_icon {
-    border: 1px solid #FFC0CB;
+    border: 1px solid #FE5B35;;
     border-radius: 50%;
     display: inline-block;
     font-size: 36px;
     line-height: 84px;
     width: 84px;
     margin-bottom: 20px;
-    color: #FFC0CB;
+    color: #FE5B35;;
 	transition:.5s;
 }
 .service-area:hover > .service_icon {
-    background-color: #FFC0CB;
+    background-color: #FE5B35;;
     color: #fff;
 }
 a.read-more i.fa-arrow-right {
@@ -393,7 +412,7 @@ a.read-more i.fa-arrow-right {
 }
 .read-more:hover {
     opacity: .7;
-    color: #FFC0CB;
+    color: #FE5B35;;
 }
 
 /*-------------------- end services CSS --------------------*/
@@ -413,6 +432,7 @@ a.read-more i.fa-arrow-right {
 .about_left {
     margin-top: 45px;
 }
+
 .single_about {
     display: inline-block;
     vertical-align: top;
@@ -424,24 +444,30 @@ a.read-more i.fa-arrow-right {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.about_inner {
+	padding: 0;
+}
 
 .about_inner h4 {
     font-weight: 500;
     font-size: 20px;
+		padding: 0;
 }
 
 .about_bg_inner {
     padding-top: 145px;
 }
 .about_bg_inner span {
-    color: #FFC0CB;
-	margin-right: 15px;
+  color: #FE5B35;
+	 margin-right: 15px;
+	 font-size: 46px;
+
 }
 i.about_icon {
     font-size: 40px;
     margin-bottom: 20px;
     margin-top: 15px;
-    color: #FFC0CB;
+    color: #FE5B35;
 }
 .about_bg h1 {
     color: #fff;
@@ -486,7 +512,7 @@ i.about_icon {
 	list-style:none;
 }
 .portfolio_filter ul li{
-	border: 1px solid #FFC0CB;
+	border: 1px solid #FE5B35;
 	color:#333;
 	font-weight: 700;
 	text-transform: lowercase;
@@ -498,7 +524,7 @@ i.about_icon {
 	cursor: pointer;
 }
 .filter.active {
-	background: #FFC0CB;
+	background: #FE5B35;
 	border: 1px solid #00bcd4;
 	color: #fff;
 }
@@ -521,7 +547,7 @@ i.about_icon {
 .sing_link_img a:hover{
 	background: #fff;
 	border-color: #fff;
-	color: #FFC0CB;
+	color: #FE5B35;
 
 }
 .sing_link_img a.search{
@@ -689,8 +715,8 @@ i.about_icon {
 }
 .custom-box:hover .featureicon {
 	color: #fff;
-	background: #FFC0CB;
-	border-color: #FFC0CB;
+	background: #FE5B35;
+	border-color: #FE5B35;
 }
 .feature-icon .title h3 {
 	font-size: 18px;
@@ -721,6 +747,7 @@ i.about_icon {
     background-repeat: repeat;
     color: #fff;
     height: 100%;
+		/*padding-left: 200px;*/
     padding-bottom: 80px;
     padding-top: 80px;
     width: 100%;
@@ -913,7 +940,7 @@ teamThumb {
 /*-------------- Start video css -------------*/
 
 #video {
-  background: transparent url("img/video_bg.jpg") repeat fixed 0% 0% / 100% auto;
+  background: transparent url("img/slider/chinbasin.jpg") repeat fixed 0% 0% / 100% auto;
   position: relative;
 }
 .video-section .base-header{
@@ -991,7 +1018,7 @@ teamThumb {
 .play-video .fa-play {
   width: 22px;
   height: 26px;
-  color: #FFC0CB;
+  color: #FE5B35;
   font-size: 28px;
   font-weight: 400;
   position: absolute;
@@ -1059,14 +1086,14 @@ teamThumb {
 }
 .video_btn {
     color: #fff;
-    background: #FFC0CB;
+    background: #FE5B35;
     padding: 15px 35px;
     margin-right: 15px;
 	text-transform: uppercase;
 	transition:.5s;
 }
 .video_btn:hover {
-    color: #FFC0CB;
+    color: #FE5B35;
     background: #fff;
 }
 
@@ -1080,7 +1107,7 @@ teamThumb {
 /*--------- start pricing css ---------*/
 
 .pricing-area {
-    background-color: #FFC0CB;
+    background-color: #FE5B35;
     padding: 50px;
     text-align: center;
     margin-bottom: 50px;
@@ -1146,8 +1173,8 @@ ul.plan-features {
 }
 .pricing_btn:hover {
     color: #fff;
-    border: 1px solid #FFC0CB;
-    background:#FFC0CB;
+    border: 1px solid #FE5B35;
+    background:#FE5B35;
 }
 .pricing_btn_white {
     color: #fff;
@@ -1158,7 +1185,7 @@ ul.plan-features {
 	transition:.5s;
 }
 .pricing_btn_white:hover {
-    color: #FFC0CB;
+    color: #FE5B35;
     border: 1px solid #fff;
     background:#fff;
 }
@@ -1179,7 +1206,7 @@ ul.plan-features {
 }
 .form_text h3 {
     font-size: 22px;
-    color: #FFC0CB;
+    color: #FE5B35;
     margin-bottom: 0;
 }
 .form_text p {
@@ -1206,7 +1233,7 @@ ul.plan-features {
 }
 
 .subscription-form #mail-submit {
-	background-color: #FFC0CB;
+	background-color: #FE5B35;
 	border: 0 none;
 	color: #fff;
 	padding: 18px 35px;
@@ -1308,9 +1335,9 @@ a, a:hover, a:focus {
 }
 .blog_btn {
     color: #fff;
-    background: #FFC0CB;
+    background: #FE5B35;;
     padding: 10px 25px;
-	transition:.5s;
+	 transition:.5s;
 }
 .blog_btn:hover {
     color: #fff;
@@ -1396,12 +1423,12 @@ a, a:hover, a:focus {
     margin-top: 35px;
 }
 .icon_box {
-  color: #FFC0CB;
+  color: #FE5B35;
   font-size: 35px;
   margin-bottom: 25px;
 }
 .contact_divided {
-    background: #FFC0CB;
+    background: #FE5B35;
     height: 1px;
     margin: 0 140px;
     margin-bottom: 15px;
@@ -1429,11 +1456,12 @@ a, a:hover, a:focus {
 
 .contact_btn {
     color: #fff;
-    background: #FFC0CB;
+    background: #FE5B35;;
     padding: 10px 25px;
     transition: .5s;
     margin-top: 30px;
-	border: 1px solid #FFC0CB;
+	  border: 1px solid #FE5B35;
+		font-family: 'gravity', sans-serif;
 }
 .contact_btn:hover {
     color: #fff;
@@ -1490,7 +1518,7 @@ a, a:hover, a:focus {
 
 #footer .social-icons {
     margin-top: 50px;
-    margin-left: 385px;
+    margin-left: 468px;
 }
 
 #footer .social-icons ul {
@@ -1507,9 +1535,9 @@ a, a:hover, a:focus {
     border-radius: 0;
     line-height: 33px;
     padding: 18px;
-    color: #00bcd4;
+    color: #FE5B35;
     font-size: 18px;
-	transition:.5s;
+	  transition:.5s;
 }
 #footer .social-icons ul li a:hover {
   color: #fff;
@@ -1521,3 +1549,37 @@ a, a:hover, a:focus {
 }
 
 /*-------------- end footer css -------------*/
+
+/*-------------- media query ----------------*/
+
+@media only screen and (max-width:1170px) {
+	q {
+		position: relative;
+    bottom: -53px;
+	}
+}
+@media only screen and (max-width: 768px){
+	q {
+		display: none;
+	}
+}
+
+/*-- custom fonts --*/
+@font-face {
+	font-family: 'kenzo';
+	src: url('fonts/Kenzo-Regular.otf');
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family:'gravity';
+	src: url('fonts/Gravity-Light.otf');
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family:'lane';
+	src: url('fonts/LANENAR_.ttf');
+	font-style: normal;
+	font-weight: 100;
+}
