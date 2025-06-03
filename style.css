@@ -187,13 +187,13 @@ button:focus,
 }
 
 .slide1{
-	text-align: left;
+	text-align: center;
 }
 .slide2{
 	text-align: center;
 }
 .slide3{
-	text-align: right;
+	text-align: center;
 }
 .sider_text {
 	height: 100%;
@@ -212,6 +212,9 @@ button:focus,
 	text-transform: capitalize;
 	line-height: 28px;
 	line-height: normal;
+	font-family: 'kenzo';
+	color: #FE5B35
+	text-align:center;
 }
 .first_heading span {
     color: #FE5B35;
@@ -224,19 +227,19 @@ button:focus,
 	margin: auto;
 }
 .slide1 .slider_divided{
-	float: left;
 }
 .slider_divided.divided_float2 {
-    float: right;
-	margin-bottom: 0px;
+	  margin-bottom: 0px;
 }
 .sider_text p {
     color: #fff;
     font-size: 14px;
     letter-spacing: 0.8px;
+		font-family: 'Roboto', sans-serif;
 }
 p.text_margintop {
     margin-top: 46px;
+		text-align: center;
 }
 .sider_text > .btn_wrap{
 	margin-top: 150px;
@@ -248,15 +251,23 @@ p.text_margintop {
 	animation: fadeInUp 1500ms ease-in-out;
 }
 .explore_btn{
+<<<<<<< HEAD
 	background: #FE5B35; none repeat scroll 0 0;
+=======
+	background: #FE5B35 none repeat scroll 0 0;
+>>>>>>> beaa8f761fae36311a923ecdd0af2352320c2052
 	border-radius: 2%;
-	color: #fff;
+	color: white;
 	font-size: 13px;
 	font-weight: 600;
 	padding: 13px 18px;
 	text-transform: uppercase;
 	transition: all 0.5s ease 0s;
   font-family: 'gravity', sans-serif;
+<<<<<<< HEAD
+=======
+	border-color: #FE5B35;
+>>>>>>> beaa8f761fae36311a923ecdd0af2352320c2052
 }
 .explore_btn:hover, .explore_btn:focus{
 	color: #FE5B35;;
@@ -351,11 +362,20 @@ a.nivo-nextNav{
 	text-align: right;
 	float: right;
 }
+<<<<<<< HEAD
 q {
 	position: absolute;
   bottom: -200px;
   font-size: 20px;
 	font-family: 'lane', sans-serif;
+=======
+h3.introHead{
+  font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	border: 1px solid #FE5B35;
+
+>>>>>>> beaa8f761fae36311a923ecdd0af2352320c2052
 }
 
 
@@ -374,13 +394,17 @@ q {
 .service-area {
     text-align: center;
     padding-bottom: 30px;
-	margin-top: 30px;
+	  margin-top: 30px;
 }
 .service-area h3 {
     font-size: 25px;
 }
 .services-sec .service-area .service_icon {
+<<<<<<< HEAD
     border: 1px solid #FE5B35;;
+=======
+    border: 1px solid #FE5B35;
+>>>>>>> beaa8f761fae36311a923ecdd0af2352320c2052
     border-radius: 50%;
     display: inline-block;
     font-size: 36px;
@@ -388,7 +412,11 @@ q {
     width: 84px;
     margin-bottom: 20px;
     color: #FE5B35;;
+<<<<<<< HEAD
 	transition:.5s;
+=======
+	  transition:.5s;
+>>>>>>> beaa8f761fae36311a923ecdd0af2352320c2052
 }
 .service-area:hover > .service_icon {
     background-color: #FE5B35;;
@@ -1256,7 +1284,6 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 .client_item{
-	width: 20%;
 	float: left;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -1435,7 +1462,7 @@ a, a:hover, a:focus {
 }
 .icon_box_content > h4 {
   font-weight: 500;
-  margin-bottom: 0;
+  margin-bottom: 23px;
 }
 .icon_box_content a {
   color: #333;

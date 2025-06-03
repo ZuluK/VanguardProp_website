@@ -239,8 +239,10 @@ h2,
 }
 h3,
 .uk-h3 {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 19px;
+  line-height: 38px;
+  text-decoration: underline;
+  font-family:'gravity';
 }
 h4,
 .uk-h4 {
@@ -251,6 +253,7 @@ h5,
 .uk-h5 {
   font-size: 14px;
   line-height: 20px;
+  font-family:'lane';
 }
 h6,
 .uk-h6 {
